@@ -1,0 +1,17 @@
+1. Install Environment on Parent Directory
+	command: pip install virtualenv
+
+2. Create VirtualEnv Folder:
+	command virtualenv <FolderName>
+
+3. Activate Virtual Environment
+	command : cd <FolderName>/Scripts
+		  activate
+
+4. Back To Project Folder
+	command: cd <DirectoryPath>
+
+5. Install all the dependency from requirement.txt
+	command: pip install -r requirements.txt
+6. Run Project
+	command: python manage.py runserver
